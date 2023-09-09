@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+}
+
+
+.material-icons, .material-symbols-outlined {
+    color: #212121;
+}
+
+.header-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.header-total .d-flex {
+    border: 1px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-total .d-flex .form-control.me-2 {
+    width: 500px;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 0;
+    border: none;
+}
+
+.header-logo img {
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.search-btn #search-icon {
+    color: white;
+}
+
+.collapse.navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+.header-account-bag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-account-bag .header-account-bag-icon {
+    display: flex;
+    text-decoration: none;
+    color: #212121;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-account-bag .header-account-bag-icon #bag-icon {
+    padding: 5px
+}
+
+
+#bag-icon #bag-arrow-icon {
+    margin: 5px 0;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-top: 16px;
+
+}
+
+.menu-item {
+    font-size: 14px;
+    color: #686767;
+    margin: 0 auto;
+}
+
+.menu-item:hover {
+    transition: ease-in-out .1s;
+    font-weight: bolder;
+    color: #9FE44D;
+}
+
+.line hr {
+    margin-top: 24px;
+    border-bottom: 1px solid #696969;
+	box-shadow: 0 20px 20px -20px rgb(8, 8, 8);
+   
+}
+
+.text-main-container .text h1{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-main-container .text p {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item .d-block {
+    width: 1490px;
+    height: 557px;
+    object-fit: cover;
+    margin-bottom: 32px;
+}
+
